@@ -17,3 +17,7 @@
 -include device/huawei/hi6250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/huawei/warsaw
+
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3103539200
+BOARD_CACHEIMAGE_PARTITION_SIZE := 127909888
