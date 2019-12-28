@@ -31,3 +31,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from hi6250-common
 $(call inherit-product, device/huawei/hi6250-common/hi6250.mk)
+
+# call the proprietary setup	
+$(call inherit-product-if-exists, vendor/huawei/hi6250-common/hi6250-common-vendor.mk)	
